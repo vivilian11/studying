@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>反拖延倒计时</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>⏳反拖延倒计时</h2>
+            <div class="form-group">
+                <label for="missionInput">任务</label>
+                <textarea id="missionInput" rows="3" placeholder="请在此输入任务"></textarea>
+            </div>
+
+            <div class="time-set">
+                <label for="timeInput">最迟拖延时间</label>
+                <input type="datetime-local" id="timeInput" required>
+            </div>
+
+            <button id="sealBtn">封印拖延症</button>
+
+            <div id="missionList">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
