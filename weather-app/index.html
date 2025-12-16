@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>天气项目的作业</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-wrapper"> <!-- 新增外层容器 -->
+        <div class="containerWeather">
+            <h1>天气查询</h1>
+            <form id="search-form" class="searchForm">
+                <input type="text" id="city-input" placeholder="请输入城市名称" autocomplete="off">
+                <button id="search-button" type="submit">查询</button>
+            </form>
+            <div id="weather-result">
+            </div>
+        </div>
+        <div class="containerMood">
+            <h1>今日心情</h1>
+            <div id="encouragement-box"></div>
+            <form id="writer-mood" class="writerMood">
+                <input type="text" id="mood-input" placeholder="请输入今日心情" autocomplete="off">
+                <button id="writer-button" type="submit">提交</button>
+            </form>
+            <ul id="mood-list">
+            </ul>
+        </div>
+        <div class="containerTime">
+            <h1>当前时间为~</h1>
+            <div class="time-box">
+            <span id="hour">00</span>
+            <span>:</span>
+            <span id="minute">00</span>
+            <span>:</span>
+            <span id="second">00</span>
+            <span id="ampm"></span>
+            </div>
+        </div>
+        </div> <!-- 关闭外层容器 -->
+        <script src="script.js"></script>
+    </body>
+</html>
