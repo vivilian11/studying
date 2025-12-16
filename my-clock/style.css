@@ -1,0 +1,33 @@
+*{box-sizing: border-box;}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height:100vh;
+    margin:0;
+    background-color:coral;
+    color:thistle;   
+}
+h1{
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom:20px;
+}
+h2{
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.clock-container{
+    background-color:blueviolet;
+    padding:10px 20px 20px 20px;
+    border-radius: 10px;
+    text-align:center;
+}
+.clock-container span{
+    font-size:5rem;
+    color:lightyellow;
+    font-weight:bold;
+}
