@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji 记忆游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>🧠 记忆大挑战</h2>
+        <div class="stats">
+            <span>步数: <span id="moves">0</span></span>
+            <span>时间: <span id="timer">00:00</span></span>
+        </div>
+
+        <div class="'stats">
+            <span>最短步数：<span id="bestMoves">0</span></span>
+            <span>最短时间：<span id="bestTimer">0</span></span>
+        </div>
+        
+        <div class="grid-board" id="board"></div>
+        
+        <button id="restartBtn">重新开始</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
